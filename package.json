@@ -1,16 +1,11 @@
 {
-  "name": "warfrontio-relay",
+  "name": "warfront-server",
   "version": "1.0.0",
-  "description": "Real-time multiplayer relay server for WARFRONT.IO (Socket.IO based)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
     "socket.io": "^4.7.5"
-  },
-  "engines": {
-    "node": ">=18"
   }
 }
